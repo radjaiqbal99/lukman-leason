@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <h2>Filter eleeeeeeeeeeeeee</h2>
+    <h2>Filter Electronic</h2>
     <p 
     v-for="filter in filters" 
     :key="filter"

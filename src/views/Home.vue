@@ -9,7 +9,7 @@
       </div>
       <div class="row mb-3 mx-auto justify-content-center">
         <div class="col-md-4 mt-4" >
-          <!-- <FilterElectronic :filterElectronic="filterElectronic" /> -->
+          <FilterElectronic :filterElectronic="filterElectronic" />
         </div>
       </div>
     </div>
@@ -21,14 +21,14 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 import axios from "axios";
 import CardProduct from "@/components/CardProduct.vue";
-// import FilterElectronic from "@/components/FilterElectronic.vue";
+import FilterElectronic from "@/components/FilterElectronic.vue";
 
 export default {
   name: "Home",
   components: {
     // HelloWorld
-    CardProduct
-    // FilterElectronic
+    CardProduct,
+    FilterElectronic
   },
   data() {
     return {
